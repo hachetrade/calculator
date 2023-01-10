@@ -27,7 +27,7 @@ const result = (setScore, currentScore) => {
 const Render = () => {
   const [currentScore, setScore] = React.useState(false);
   return (
-    <div className='position-absolute top-50 start-50 translate-middle-x translate-middle-y w-25'>
+    <div className='position-absolute top-50 start-50 translate-middle w-25'>
       <Display />
       <Keypad
         fuck={pintaValor}
